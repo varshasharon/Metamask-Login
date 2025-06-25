@@ -4,24 +4,35 @@ A simple decentralized authentication system using MetaMask and Ethereum. This p
 
 ## Features
 🦊 MetaMask wallet integration (Ethereum-based authentication)
+
 🔐 Nonce-based signature verification for secure login
+
 🧑‍💻 Frontend: HTML, CSS, JavaScript
+
 🌐 Backend: Node.js + Express.js
+
 🔁 Stateless login (no session/password storage)
+
 📦 Uses crypto for nonce generation and ethers.js for signature verification
 
 ##  Tech Stack
+
 ### Frontend
 
 HTML5, CSS3, JavaScript
+
 MetaMask Ethereum provider (window.ethereum)
+
 Wallet signature interaction
 
 ### Backend
 
 Node.js
+
 Express.js
+
 crypto module for secure nonce generation
+
 ethers.js for Ethereum signature verification
 
 ## How It Works
